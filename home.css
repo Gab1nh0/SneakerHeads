@@ -1,0 +1,106 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    background-color: #ECF4D6;
+}
+
+.container-recomendados{
+  position: absolute;
+  z-index: 3;
+  top: 75%;
+  background: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container-recomendado-titulo{
+  background: none;
+}
+
+.container-recomendado-titulo h1{
+  background: none;
+}
+
+.container-recomendados-productos{
+  display: flex;
+  gap: 60px;
+  background: none;
+}
+  
+
+  .producto{
+    width: 200px;
+    height: 275px;
+    border-radius: 10px;
+    border: solid 1px grey;
+    background-color: white;
+  }
+
+  .producto-link a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .producto-imagen{
+    background-color: white;
+  }
+
+
+  .producto-imagen img{
+    width: 200px;
+    background-color: white;
+  }
+
+  .producto-texto{
+    font-size: 14px;
+    padding-left: 10px;
+    background-color: white;
+  }
+
+  .producto-texto h4{
+    font-size: 14px;
+    font-weight: 700;
+    background-color: white;
+  }
+
+  .producto-texto h3{
+    background-color: white;
+    font-weight: 700;
+  }
+
+  .producto-texto br{
+    background-color: white;
+  }
+
+  .producto-texto p{
+    font-size: 14px;
+    font-weight: 700;
+    color: grey;
+    background-color: white;
+  }
+
+  .boton-carrito-container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+
+  .boton-carrito{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #2D9596;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 10px;
+    height: 32px;
+    width: 170px;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .boton-carrito i{
+    background: none;
+  }

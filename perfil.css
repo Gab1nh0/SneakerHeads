@@ -1,0 +1,213 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 0px;
+    height: 100%;
+    background-color: #ECF4D6;
+}
+
+html{
+    height: 100%;
+}
+
+.side-bar{
+    background-color: #9AD0C2;
+    height: 100%;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.side-bar-interior{
+    background-color: #2D9596;
+    width: 90%;
+    height: 100%;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.titulo{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo a{
+    text-decoration: none;
+    color: white;
+}
+
+.opciones{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 30px;
+}
+
+.opciones a{
+    text-decoration: none;
+    color: white;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    padding: 20px;
+}
+
+.content form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.form-izq{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.form-der{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.content form input[type='text'] {
+    height: 40px;
+    border-radius: 20px;
+    border: solid 1px grey ;
+    padding-left: 10px;
+}
+
+.content form input[type='number'] {
+    height: 40px;
+    border-radius: 20px;
+    border: solid 1px grey ;
+    padding-left: 10px;
+}
+
+.content form input[type='email'] {
+    height: 40px;
+    border-radius: 20px;
+    border: solid 1px grey ;
+    padding-left: 10px;
+}
+
+
+.content select{
+    height: 40px; 
+    border-radius: 20px;
+    border: solid 1px grey ;
+    padding-left: 10px;
+}
+
+.content textarea {
+    border-radius: 20px;
+    border: solid 1px grey ;
+    padding-left: 10px;
+}
+
+.content form input[type='password'] {
+    height: 40px;
+    border-radius: 20px;
+    border: solid 1px grey ;
+    padding-left: 10px;
+}
+
+
+.content form input[type='submit'] {
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #2D9596;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/*pedidos*/
+
+.pedido-solo{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.pedido-solo-img img{
+    width: 200px;
+}
+
+/*sotck*/
+
+.anadir-zapas-btn{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: #2D9596;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    width: 300px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+    gap: 5px;
+}
+
+.icon-btn {
+    display: inline-flex;
+    align-items: center;
+  }
+
+.botones-opciones{
+    display: flex;
+    gap: 20px;
+}
+
+.eliminar-zapas-btn{
+    text-decoration: none;
+    display: inline;
+    background: red;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    width: 200px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.update-zapas-btn{
+    text-decoration: none;
+    display: inline;
+    background: #709a8f;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    width: 200px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.zapatillas-conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.zapatillas-conteiner img{
+    width: 300px;
+    height: 200px;
+}
+
+
+/*Stock*/
+
+.a-sin-estilo{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    gap: 5px;
+}
